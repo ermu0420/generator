@@ -46,10 +46,16 @@
         <property name="enableSubPackages" value="true" />
     </javaClientGenerator>
 
-        <table tableName="IDC_TICKET_CLOUD_DEMAND"  schema="" enableCountByExample="false"
+        <table tableName="IDC_TICKET_HIS_T"  schema="" enableCountByExample="false"
                enableDeleteByExample="false" enableUpdateByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false"></table>
-        <table tableName="IDC_TICKET_CLOUD_DEMAND_VPS"  schema="" enableCountByExample="false"
+        <table tableName="IDC_TICKET_RUN_T"  schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="IDC_TICKET_TEST_T"  schema="" enableCountByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false"></table>
+        <table tableName="IDC_RE_PRODUCT_T"  schema="" enableCountByExample="false"
                enableDeleteByExample="false" enableUpdateByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false"></table>
 </context>

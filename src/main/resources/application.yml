@@ -10,14 +10,14 @@ spring:
   profiles: mysql
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.99.63.240:3306/jnpark?characterEncoding=utf8&useSSL=false&autoReconnect=true
+    url: jdbc:mysql://192.168.0.217:3306/jnpark?characterEncoding=utf8&useSSL=false&autoReconnect=true
     username: root
-    password: JnPark2018!
+    password: 123456
 ---
 spring:
   profiles: orcl
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@192.168.0.219:1521:orcl
-    username: idc_cloud
-    password: idc_cloud
+    username: zxidc_dbms
+    password: zxidc_dbms
